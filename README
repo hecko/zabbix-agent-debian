@@ -1,3 +1,7 @@
+Automatically downloads Zabbix and created DEB package for the platform where this script is being run. 
+
+Debian, probably Ubuntu. Tested with Debian 6 (squeeze). 
+
 git clone https://github.com/hecko/zabbix-agent-debian.git
 cd zabbix-agent-debian
 ./build.sh
