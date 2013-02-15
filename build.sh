@@ -2,7 +2,7 @@
 
 ZABBIX_VERSION='2.0.5'
 
-apt-get install dh-make dpkg-dev debhelper devscripts fakeroot git
+sudo apt-get install dh-make dpkg-dev debhelper devscripts fakeroot git
 git clone https://github.com/hecko/zabbix-agent-debian.git
 wget http://downloads.sourceforge.net/project/zabbix/ZABBIX%20Latest%20Stable/${ZABBIX_VERSION}/zabbix-${ZABBIX_VERSION}.tar.gz
 tar xzfv zabbix-${ZABBIX_VERSION}.tar.gz
