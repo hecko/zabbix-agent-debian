@@ -6,6 +6,8 @@ git clone https://github.com/hecko/zabbix-agent-debian.git
 cd zabbix-agent-debian
 ./build.sh
 
-does not contain rc scripts
+does not automatically install rc script(s)
+
+does not automatically create zabix user
 
 zabbix-server is a default hostname for zabbix server in the agent config - so change your /etc/hosts accordingly
