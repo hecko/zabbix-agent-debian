@@ -1,1 +1,7 @@
-just run ./build.sh to make the zabbix agent DEB package
+git clone https://github.com/hecko/zabbix-agent-debian.git
+cd zabbix-agent-debian
+./build.sh
+
+does not contain rc scripts
+
+zabbix-server is a default hostname for zabbix server in the agent config - so change your /etc/hosts accordingly
